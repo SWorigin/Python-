@@ -1,0 +1,6 @@
+x = input('输入一个数')
+y =len(x)
+s = 0
+for a in range(y):
+    s +=int(x[a])
+print(s)
